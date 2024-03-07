@@ -1,11 +1,11 @@
 import React from 'react';
+import TableBooking from './TableBooking';
 import './App.css';
 
 function App() {
   return (
- 
-    <div>
-      <h1>Meta Frontend Developer</h1>
+    <div className="App">
+      <TableBooking />
     </div>
   );
 }
